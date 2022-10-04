@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main\Animate\Animation.cpp">
+      <Filter>Src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animate\Animator.cpp">
+      <Filter>Src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Utils\GameTime.cpp">
+      <Filter>Src\Main\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Utils\Random.cpp">
+      <Filter>Src\Main\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\public\Animate\Animation.h">
+      <Filter>Src\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animate\Animator.h">
+      <Filter>Src\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Utils\GameTime.h">
+      <Filter>Src\Public\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Utils\Random.h">
+      <Filter>Src\Public\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{47584142-3201-4d89-9b4e-cdf7a294b5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{b030ff48-5434-4eba-9f01-e988829458f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main">
+      <UniqueIdentifier>{1c612c9f-3b6a-460b-8a97-27f593d60fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public">
+      <UniqueIdentifier>{7754a3f2-0493-4cde-8371-7012e5c3e0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\Utils">
+      <UniqueIdentifier>{9658235b-f0cf-425b-9609-af208db1e86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\Utils">
+      <UniqueIdentifier>{ef8c4525-478f-40bd-8c77-03d8272e579a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

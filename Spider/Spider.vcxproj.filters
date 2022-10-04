@@ -1,0 +1,1822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main\Animation\BaseAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\Deal10_UndoAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\Deal10Animation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\DealGameAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\AppCards.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\Application.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\Button.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\Card.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\CardStack.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Model\CardModel.cpp">
+      <Filter>Src\Main\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\Dealing.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Model\Deck.cpp">
+      <Filter>Src\Main\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\EmptyAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\GameStackMove_UndoAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\GameStackMoveAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\GameResources.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\GLErrors.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OSS\glm\detail\glm.cpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\IndexBuffer.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\Main.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\MouseInput.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Model\MoveRecord.cpp">
+      <Filter>Src\Main\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\Platform\MsWindows.cpp">
+      <Filter>Src\Main\MyGL\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\PackRemoveAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\PackRestoreAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\Shader.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\SimpleStackMoveAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\SpiderAnimator.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\SpiderGame.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\SpiderNonAnimator.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\Sprite.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\SpriteFactory.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\SpriteRenderer.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\View\StackSlot.cpp">
+      <Filter>Src\Main\View</Filter>
+    </ClCompile>
+    <ClCompile Include="OSS\stb_image\std_image.cpp">
+      <Filter>OSS\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\App\TestConfigs.cpp">
+      <Filter>Src\Main\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\Texture.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Animation\TurnCardAnimation.cpp">
+      <Filter>Src\Main\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\VertexArray.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\VertexBuffer.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\MyGL\Platform\Window2D.cpp">
+      <Filter>Src\Main\MyGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OSS\glm\detail\_features.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\_noise.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\_fixes.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\_swizzle.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\_swizzle_func.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\_vectorize.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\AppCards.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\Application.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Events\ApplicationEvent.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\associated_min_max.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\BaseAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Model\CardEnums.h">
+      <Filter>Src\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Model\CardModel.h">
+      <Filter>Src\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\CardStack.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\Card.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\Button.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\color_space.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\color_space.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\bit.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\bitfield.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\closest_point.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\color_encoding.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\common.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\common.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\common.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\compute_common.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\compute_vector_relational.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\compatibility.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\component_wise.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\constants.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\Deal10_UndoAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\Deal10Animation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\DealGameAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\Dealing.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Model\Deck.h">
+      <Filter>Src\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\dual_quaternion.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\easing.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\EmptyAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\epsilon.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\functions.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\fast_exponential.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\fast_square_root.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\fast_trigonometry.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\euler_angles.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Events\Event.h">
+      <Filter>Src\Public\MyGL\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\exponential.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\exponential.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\extend.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\extended_min_max.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\exterior_product.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\GameStackMove_UndoAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\GameStackMoveAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\GameResources.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\fwd.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\geometric.h">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\geometric.hpp">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\GLErrors.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glew-2.1.0\include\GL\glew.h">
+      <Filter>OSS\glew-2-1-0\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\GLFW\include\GLFW\glfw3.h">
+      <Filter>OSS\GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\GLFW\include\GLFW\glfw3native.h">
+      <Filter>OSS\GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\glm.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\gradient_paint.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\hash.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\integer.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\integer.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\integer.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\integer.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\DragDrop\IDragDrop.h">
+      <Filter>Src\Public\DragDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\IGameMove.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\IndexBuffer.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\intersect.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\io.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Events\KeyEvent.h">
+      <Filter>Src\Public\MyGL\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\log_base.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double2x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double2x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double2x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double3x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double3x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double3x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double4x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double4x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double4x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float2x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float2x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float2x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float3x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float3x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float3x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float4x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float4x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_float4x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int2x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int2x2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int2x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int2x3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int2x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int2x4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int3x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int3x2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int3x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int3x3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int3x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int3x4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int4x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int4x2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int4x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int4x3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int4x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_int4x4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat2x2.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat2x3.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat2x4.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat3x2.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat3x3.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat3x4.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat4x2.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat4x3.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\mat4x4.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\matrix.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\matrix.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\matrix_access.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_cross_product.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_clip_space.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_common.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_decompose.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_factorisation.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_interpolation.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\matrix_integer.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\matrix_inverse.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_major_storage.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_operation.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_projection.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_query.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint2x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint2x2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint2x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint2x3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint2x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint2x4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint3x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint3x2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint3x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint3x3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint3x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint3x4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint4x2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint4x2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint4x3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint4x3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint4x4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\matrix_transform.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_relational.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_transform.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\matrix_uint4x4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\mixed_product.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\MouseInput.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Model\MoveRecord.h">
+      <Filter>Src\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Events\MouseEvent.h">
+      <Filter>Src\Public\MyGL\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Platform\MsWindows.h">
+      <Filter>Src\Public\MyGL\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\neon.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\noise.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\norm.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\normal.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\normalize_dot.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\number_precision.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\optimum_pow.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\orthonormalize.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\packing.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\platform.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\packing.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\packing.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\PackRestoreAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\PackRemoveAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\perpendicular.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\polar_coordinates.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\projection.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\qualifier.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\quaternion.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\quaternion.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_common.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_double.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_double_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_exponential.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_float.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_float_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_geometric.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_relational.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_transform.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\range.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\raw_data.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\random.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\reciprocal.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\round.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\rotate_vector.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_common.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_constants.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_int_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_integer.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_packing.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_uint_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_ulp.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\scalar_multiplication.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\scalar_relational.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\scalar_relational.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\setup.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Shader.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\SimpleStackMoveAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\SpiderAnimator.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\SpiderGame.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\SpiderNonAnimator.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\spline.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\Sprite.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\SpriteFactory.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\SpriteRenderer.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\View\StackSlot.h">
+      <Filter>Src\Public\View</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\stb_image\std_image.h">
+      <Filter>OSS\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\std_based_type.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\string_cast.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\App\TestConfigs.h">
+      <Filter>Src\Public\App</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\texture.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Texture.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\transform.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\transform2.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\trigonometric.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\trigonometric.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Animation\TurnCardAnimation.h">
+      <Filter>Src\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat2x2.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat2x3.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat2x4.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat3x2.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat3x3.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat3x4.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat4x2.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat4x3.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_mat4x4.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_vec1.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_vec2.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_vec3.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_vec4.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_float.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_half.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\detail\type_quat.hpp">
+      <Filter>OSS\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\type_aligned.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\type_aligned.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\type_precision.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\type_ptr.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\type_trait.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool1.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool1_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_bool4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double1.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double1_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_double4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float1.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float1_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float2_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float3_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_float4_precision.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int1.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int1_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_int4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_integer.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint1.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint1_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint2.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint2_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint3.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint3_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint4.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_uint4_sized.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_common.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_packing.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\vector_angle.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\vec2.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\vec3.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\vec4.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\vec1.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\vec_swizzle.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtc\ulp.hpp">
+      <Filter>OSS\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\vector_query.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\simd\vector_relational.h">
+      <Filter>OSS\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_relational.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\vector_relational.hpp">
+      <Filter>OSS\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\ext\vector_ulp.hpp">
+      <Filter>OSS\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\VertexArray.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\VertexBuffer.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\VertexBufferLayout.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\MyGL\Platform\Window2D.h">
+      <Filter>Src\Public\MyGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS\glm\gtx\wrap.hpp">
+      <Filter>OSS\glm\gtx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\cards\Card-Ace-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ace-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ace-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ace-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Eight-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Eight-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Eight-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Five-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Five-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Five-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Five-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Four-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Four-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Four-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Four-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Jack-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Jack-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Jack-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Jack-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-King-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-King-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-King-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-King-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Eight-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Nine-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Nine-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Nine-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Nine-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Queen-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Queen-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Queen-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Queen-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Seven-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Seven-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Seven-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Seven-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Six-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Six-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Six-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Six-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ten-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ten-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ten-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Ten-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Three-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Three-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Three-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Three-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Two-of-Clubs.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Two-of-Diamonds.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Two-of-Hearts.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Card-Two-of-Spades.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\cards\Back.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\buttons\NewGame.png">
+      <Filter>Resources\Buttons</Filter>
+    </Image>
+    <Image Include="res\buttons\Reset.png">
+      <Filter>Resources\Buttons</Filter>
+    </Image>
+    <Image Include="res\cards\Slot.png">
+      <Filter>Resources\Cards</Filter>
+    </Image>
+    <Image Include="res\buttons\Test1.png">
+      <Filter>Resources\Buttons</Filter>
+    </Image>
+    <Image Include="res\buttons\Undo.png">
+      <Filter>Resources\Buttons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OSS\glm\gtx\associated_min_max.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\bitfield.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\color_space.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\color_space.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\bit.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\closest_point.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\color_encoding.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\color_space_YCoCg.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\common.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\compatibility.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\component_wise.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\constants.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\dual_quaternion.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\easing.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\epsilon.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\functions.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_vector_relational_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_common.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_common_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_exponential.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_exponential_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_geometric.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_geometric_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_integer.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_integer_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_matrix.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_matrix_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_packing.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_packing_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_trigonometric.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_trigonometric_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\func_vector_relational.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\fast_trigonometry.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\fast_exponential.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\fast_square_root.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\euler_angles.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\extend.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\extended_min_max.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\exterior_product.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\float_notmalize.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\gradient_paint.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\hash.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\handed_coordinate_space.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\integer.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\integer.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\intersect.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\io.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\log_base.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\matrix_access.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_cross_product.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\ext\matrix_clip_space.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\matrix_common.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_decompose.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_factorisation.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_interpolation.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\matrix_inverse.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_major_storage.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_operation.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\ext\matrix_projection.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_query.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\matrix_transform_2d.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\matrix_transform.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\ext\matrix_transform.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\matrix_relational.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\mixed_product.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\noise.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\norm.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\normal.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\normalize_dot.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\number_precision.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\optimum_pow.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\orthonormalize.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\packing.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\perpendicular.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\polar_coordinates.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\projection.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\quaternion.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\quaternion.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\quaternion_simd.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_common.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_common_simd.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_exponential.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_geometric.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_relational.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_transform.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\quaternion_trigonometric.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\raw_data.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\random.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\reciprocal.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\round.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\rotate_vector.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\ext\scalar_common.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\scalar_constants.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\scalar_integer.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\scalar_packing.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\scalar_ulp.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\scalar_relational.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\ext\scalar_relational.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\spline.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="res\shaders\Sprite.shader">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\std_based_type.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\string_cast.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\texture.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\transform.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\transform2.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat2x2.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat2x3.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat2x4.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat3x2.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat3x3.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat3x4.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat4x2.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat4x3.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat4x4.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_mat4x4_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_vec1.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_vec2.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_vec3.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_vec4.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_vec4_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_half.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_quat.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\detail\type_quat_simd.inl">
+      <Filter>OSS\glm\detail</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\type_precision.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\type_ptr.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\type_aligned.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\type_trait.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\ext\vector_integer.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\vector_packing.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\vector_common.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\vector_angle.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+    <None Include="OSS\glm\gtc\ulp.inl">
+      <Filter>OSS\glm\gtc</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\vector_query.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\vector_relational.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\ext\vector_ulp.inl">
+      <Filter>OSS\glm\ext</Filter>
+    </None>
+    <None Include="OSS\glm\gtx\wrap.inl">
+      <Filter>OSS\glm\gtx</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{c71b548e-fa4a-40fa-84b4-11f614112d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Buttons">
+      <UniqueIdentifier>{423e26da-d71c-4bb5-9ad1-7a3d063086a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Cards">
+      <UniqueIdentifier>{500b063d-aeec-4a62-a37b-0dfe2c2e06ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS">
+      <UniqueIdentifier>{3a3a7f7b-d31e-4eed-bf94-90d6a4fc83b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glew-2-1-0">
+      <UniqueIdentifier>{09ad4ca3-cb62-4efc-be8c-18ac035ebb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glew-2-1-0\include">
+      <UniqueIdentifier>{7d1f7ee1-0111-4fda-b634-670667096361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glew-2-1-0\include\GL">
+      <UniqueIdentifier>{dbfacafb-8a48-487c-bf8e-2f46ac84158a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\GLFW">
+      <UniqueIdentifier>{6edc6d78-4d76-4284-b4db-ebe2ff6e4a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\GLFW\include">
+      <UniqueIdentifier>{79c31cfd-0642-4a26-adc2-0e09d6d52922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\GLFW\include\GLFW">
+      <UniqueIdentifier>{42bccc8f-d47b-4e56-a6f5-37fbc7d23cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glm">
+      <UniqueIdentifier>{8f552484-1902-417e-b07d-c417ea0a73e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glm\detail">
+      <UniqueIdentifier>{63d87269-0993-40f5-b5cc-03303402bd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glm\gtx">
+      <UniqueIdentifier>{209aef40-9206-4a5d-8bad-26ce1e7d0b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glm\simd">
+      <UniqueIdentifier>{951ac69c-f19f-4edd-98cb-68bcd9a3994f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glm\gtc">
+      <UniqueIdentifier>{2874fdf8-fff3-43e2-ae2b-376c424ad90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\glm\ext">
+      <UniqueIdentifier>{acdcffa3-d9c4-4dc8-a235-1097ffdaad30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{a1a72d57-3ec9-4bb9-abfd-f9c7522c2a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSS\stb_image">
+      <UniqueIdentifier>{63ecaa69-13aa-4657-8e97-275f75ab1d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ac547cd5-ec88-4a07-91fa-88863f4555de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public">
+      <UniqueIdentifier>{33bde0da-fd6e-4850-9f05-50381e8e0f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\App">
+      <UniqueIdentifier>{d4d054a5-f9fb-4ca0-a0b1-905a45f96bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\MyGL">
+      <UniqueIdentifier>{6ef20469-acc2-47f7-a5b3-8c8481cfc106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\MyGL\Events">
+      <UniqueIdentifier>{7eee490a-add3-418d-915e-3945bca60c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\MyGL\Platform">
+      <UniqueIdentifier>{b0f57745-0e49-4d1f-8879-d9e2cfb668d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\Animation">
+      <UniqueIdentifier>{ffb7b027-2690-4530-9669-69986e21dc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\Model">
+      <UniqueIdentifier>{7811eb0a-d763-4d27-97cf-97594a7a547f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\View">
+      <UniqueIdentifier>{2d031e0a-fb92-4641-aabb-2c206ab58175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Public\DragDrop">
+      <UniqueIdentifier>{04a80775-fb53-4d88-8b3c-893b2b34cadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main">
+      <UniqueIdentifier>{434ca95f-1933-4b9d-bef2-ac9813353677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\Animation">
+      <UniqueIdentifier>{21d02eba-caf4-478c-94b0-673750f31e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\App">
+      <UniqueIdentifier>{dde12504-8be8-4c91-8642-156553c7651a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\Model">
+      <UniqueIdentifier>{18591114-5e87-4b88-918c-71c2b4441409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\View">
+      <UniqueIdentifier>{aace9fe3-df93-47d8-99ef-d13a06a063da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\MyGL">
+      <UniqueIdentifier>{1018636d-aa8f-48c7-9dbe-57a26e08f707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Main\MyGL\Platform">
+      <UniqueIdentifier>{9fa6ffee-3b1d-4e2e-b067-179aaafd8e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

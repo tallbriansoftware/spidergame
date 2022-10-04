@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="tests\Animate\AnimationTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Utils\GameTimeTests.cpp">
+      <Filter>Tests\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Utils\RandomTests.cpp">
+      <Filter>Tests\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{9221cafa-1345-46df-9ddb-ad7e88e3f708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Utils">
+      <UniqueIdentifier>{36f26951-a231-4e5d-948c-b7e4d6c5de3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Helpers">
+      <UniqueIdentifier>{1c00156f-600c-4041-990b-9d933c7027c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests\Helpers\GoogleTest.h">
+      <Filter>Tests\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
