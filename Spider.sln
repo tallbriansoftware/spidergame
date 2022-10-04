@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spider", "Spider\Spider.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpiderLib", "SpiderLib\SpiderLib.vcxproj", "{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test-Solitare", "Test-Solitare\Test-Solitare.vcxproj", "{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}.Release|x64.Build.0 = Release|x64
 		{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}.Release|x86.ActiveCfg = Release|Win32
 		{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}.Release|x86.Build.0 = Release|Win32
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x64.ActiveCfg = Debug|x64
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x64.Build.0 = Debug|x64
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x86.Build.0 = Debug|Win32
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x64.ActiveCfg = Release|x64
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x64.Build.0 = Release|x64
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x86.ActiveCfg = Release|Win32
+		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
