@@ -65,7 +65,9 @@ void PackRestoreAnimation::OneCardDone()
 
     for (int i = 0; i < 13; ++i)
     {
-        stack.AddCard(*m_holdingStacks[i]->RemoveTopCard());
+        Card& card = *m_holdingStacks[i]->RemoveTopCard();
+        card.BringToTop();
+        stack.AddCard(card);
         assert(m_holdingStacks[i]->getCountOfCards() == 0);
     }
 

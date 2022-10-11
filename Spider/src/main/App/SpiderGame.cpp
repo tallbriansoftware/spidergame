@@ -314,6 +314,7 @@ void SpiderGame::SetStackTestConfig(std::vector<Card*>& allCards, const std::vec
 		else
 			card->TurnFaceDown();
 		target.AddCard(*card);
+		card->BringToTop();
 	}
 }
 

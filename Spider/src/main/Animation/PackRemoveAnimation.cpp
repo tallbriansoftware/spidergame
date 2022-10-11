@@ -59,7 +59,9 @@ void PackRemoveAnimation::OneCardDone()
 
     for (int i = 0; i < 13; ++i)
     {
-        m_game.getDonePacks().AddCard(*m_holdingStacks[i]->RemoveTopCard());
+        Card& card = *m_holdingStacks[i]->RemoveTopCard();
+        card.BringToTop();
+        m_game.getDonePacks().AddCard(card);
         assert(m_holdingStacks[i]->getCountOfCards() == 0);
     }
 

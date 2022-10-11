@@ -39,6 +39,7 @@ void SpiderNonAnimator::DealGame(SpiderGame& game)
 void SpiderNonAnimator::DealOneCard(SpiderGame& game, int slot, bool faceUp)
 {
     Card& card = *game.getStock().RemoveTopCard();
+    card.BringToTop();
     CardStack& stack = game.getStack(slot);
     if (faceUp)
         card.TurnFaceUp();

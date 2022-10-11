@@ -26,7 +26,7 @@ public:
     std::vector<Card*> RemoveCards(int index);
     std::vector<Card*> RemoveCards(Card& card);
 
-    Card* RemoveTopCard(bool bringToTop = true);
+    Card* RemoveTopCard();
 
     void setPosition(const glm::vec2& position);
     glm::vec2 getPosition() const;

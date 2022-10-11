@@ -29,6 +29,7 @@ private:
 
 private:
     SpiderGame& m_game;
+    int m_collectedCount;
     int m_doneCount;
     std::array<std::unique_ptr<CardStack>, 10> m_holdingStacks;
 };

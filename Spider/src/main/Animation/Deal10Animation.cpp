@@ -64,7 +64,7 @@ void Deal10Animation::Start(int delayMilliSeconds)
 
 void Deal10Animation::StartCard(int slot)
 {
-    Card& card = *m_dealStack->RemoveTopCard(false);
+    Card& card = *m_dealStack->RemoveTopCard();
 
     auto moveStack = std::make_unique<CardStack>(CardStack::Type::Drag);
 

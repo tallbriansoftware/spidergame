@@ -35,13 +35,16 @@ void Deal10_UndoAnimation::SetCompletionCallback(Animation::CompletionCB doneCB)
 void Deal10_UndoAnimation::Start(int delayMilliSeconds)
 {
     m_doneCount = 10;
+    std::vector<Card*> cardList;
     for (int slot = 0; slot < 10; ++slot)
     {
         int delay = delayMilliSeconds + slot * 20;
         Card& card = m_game.getStack(slot).TopCard();
+        cardList.push_back(&card);
         m_spiderAnimator.TurnCard(card, false, [this, slot]() { this->MoveCard(slot); }, delay);
     }
-
+    for (int i = cardList.size() - 1; i >= 0; --i)
+        cardList[i]->BringToTop();
 }
 
 void Deal10_UndoAnimation::MoveCard(int slot)
@@ -65,7 +68,8 @@ void Deal10_UndoAnimation::OneCardDone()
     // restore to Stock in reverse order.
     for (int i = 9; i >= 0 ; --i)
     {
-        m_game.getStock().AddCard(*m_holdingStacks[i]->RemoveTopCard());
+        Card& card = *m_holdingStacks[i]->RemoveTopCard();
+        m_game.getStock().AddCard(card);
         assert(m_holdingStacks[i]->getCountOfCards() == 0);
     }
 

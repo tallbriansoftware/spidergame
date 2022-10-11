@@ -84,7 +84,7 @@ std::vector<Card*> CardStack::RemoveCards(Card& chosen)
     return removedCards;
 }
 
-Card* CardStack::RemoveTopCard(bool bringToTop)
+Card* CardStack::RemoveTopCard()
 {
     auto count = m_cards.size();
     if (count == 0)
@@ -97,9 +97,6 @@ Card* CardStack::RemoveTopCard(bool bringToTop)
     m_cards.erase(lastCard, m_cards.end());
 
     card->ClearParent();
-    if(bringToTop)
-        card->BringToTop();
-
     ReevaluateMovability();
 
     return card;
