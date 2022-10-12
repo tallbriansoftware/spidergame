@@ -84,14 +84,14 @@ void SpiderGame::Init_Stacks()
 		m_stacks[slotNumber]->setIsDropTarget(true);
 	}
 
-	const float leftBorder = 120.0f;
+	const float leftBorder = 180.0f;
 	const float topBorder = 20.0f;
 
-	const float slotWidth = 235.0f;
-	const float donePile_x = leftBorder + (slotWidth * 10);
-	const float donePile_y = 700.0f;
-	const float stockPile_x = leftBorder + (slotWidth * 10);
-	const float stockPile_y = 1200.0f;
+	const float slotWidth = 220.0f;
+	const float donePile_x = leftBorder + (slotWidth * 10.2);
+	const float donePile_y = 400.0f;
+	const float stockPile_x = leftBorder + (slotWidth * 10.2);
+	const float stockPile_y = 900.0f;
 
 	// Create the Slots and attach the stacks.
 	for (int slotNumber = 0; slotNumber < 10; ++slotNumber)

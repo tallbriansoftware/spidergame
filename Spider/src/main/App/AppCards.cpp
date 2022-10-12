@@ -30,6 +30,14 @@
 #include <MyGL/GLErrors.h>
 
 
+namespace{
+	int c_buttonLeftEdge = 30;
+	int c_buttonStackTop = 600;
+	float c_buttonHeight = 100.0f;
+	float c_buttonWidth = 100.0f;
+	float c_buttonVerticalSpacingFactor = 1.3f;
+}
+
 
 AppCards::AppCards(const std::string& name, uint32_t width, uint32_t height)
 	: Application(name, width, height)
@@ -61,20 +69,22 @@ void AppCards::Init()
 	m_gameTime = std::make_unique<GameTime>();
 
 	auto undoButton = m_spriteFactory->CreateButton("Undo");
-	undoButton->setPosition({ 30, 950, 0 });
-	undoButton->setSize({ 100.0f, 100.0f });
+	undoButton->setPosition({ c_buttonLeftEdge, c_buttonStackTop, 0 });
+	undoButton->setSize({ c_buttonWidth, c_buttonHeight });
 	undoButton->setOnClick([this]() { this->OnUndoButtonClicked(); });
 	m_spriteRenderer->AddButton(undoButton);
 
 	auto test1Button = m_spriteFactory->CreateButton("Test1");
-	test1Button->setPosition({ 30, 1150, 0 });
-	test1Button->setSize({ 100.0f, 100.0f });
+	test1Button->setPosition({ c_buttonLeftEdge, c_buttonStackTop
+		+ 1 * c_buttonVerticalSpacingFactor * c_buttonHeight, 0 });
+	test1Button->setSize({ c_buttonWidth, c_buttonHeight });
 	test1Button->setOnClick([this]() { this->OnTest1ButtonClicked(); });
 	m_spriteRenderer->AddButton(test1Button);
 
 	auto newButton = m_spriteFactory->CreateButton("NewGame");
-	newButton->setPosition({ 30, 1350, 0 });
-	newButton->setSize({ 100.0f, 100.0f });
+	newButton->setPosition({ c_buttonLeftEdge, c_buttonStackTop
+		+ 2 * c_buttonVerticalSpacingFactor * c_buttonHeight, 0 });
+	newButton->setSize({ c_buttonWidth, c_buttonHeight });
 	newButton->setOnClick([this]() { this->OnNewGameButtonClicked(); });
 	m_spriteRenderer->AddButton(newButton);
 }
