@@ -197,13 +197,15 @@ void SpiderGame::DropDragStack(std::unique_ptr<CardStack> dragStack, Sprite* tar
 	record_in.destCard = targetStack->getCountOfCards();
 
 	m_busy = true;
-	m_spiderAnimator.GameStackMove(*this, record_in, std::move(dragStack), [this](const StackMoveRecord& record_out) { this->StackMoveDone(record_out); });
+	m_spiderAnimator.GameStackMove(*this, record_in, std::move(dragStack),
+		[this](const StackMoveRecord& record_out) { this->StackMoveDone(record_out); });
 }
 
 
 void SpiderGame::Deal()
 {
-	m_spiderAnimator.Deal10(*this, [this](const DealMoveRecord record_out) { this->DealMoveDone(record_out); });
+	m_spiderAnimator.Deal10(*this, [this](const DealMoveRecord record_out)
+		{ this->DealMoveDone(record_out); });
 }
 
 
@@ -268,8 +270,13 @@ void SpiderGame::Undo_Done()
 void SpiderGame::StackMoveDone(const StackMoveRecord& rec)
 {
 	std::cout << "Stack Move stored on Undo Stack" << std::endl;
-	auto rec_ptr = std::make_unique<StackMoveRecord>(rec);
-	m_undoStack.push_back(std::move(rec_ptr));
+
+	// Don't add null moves to the undo stack.
+	if (rec.srcStack != rec.destStack)
+	{
+		auto rec_ptr = std::make_unique<StackMoveRecord>(rec);
+		m_undoStack.push_back(std::move(rec_ptr));
+	}
 	m_busy = false;
 }
 
