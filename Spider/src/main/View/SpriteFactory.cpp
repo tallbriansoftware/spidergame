@@ -49,7 +49,7 @@ namespace
 
     void LoadButtonTextures(std::unordered_map<std::string, std::shared_ptr<Texture>>& textureMap, const std::string& buttonPath)
     {
-        std::string buttonNames[] = { "Undo", "Test1", "NewGame"};
+        std::string buttonNames[] = { "Hint", "Undo", "Test1", "NewGame"};
 
         for (auto name : buttonNames)
         {

@@ -68,25 +68,21 @@ void AppCards::Init()
 	m_mouseInput = std::make_unique<MouseInput>(*m_window2D, *m_spriteRenderer, *m_spiderGame);
 	m_gameTime = std::make_unique<GameTime>();
 
-	auto undoButton = m_spriteFactory->CreateButton("Undo");
-	undoButton->setPosition({ c_buttonLeftEdge, c_buttonStackTop, 0 });
-	undoButton->setSize({ c_buttonWidth, c_buttonHeight });
-	undoButton->setOnClick([this]() { this->OnUndoButtonClicked(); });
-	m_spriteRenderer->AddButton(undoButton);
+	InitButton(0, "Undo", [this]() {this->OnUndoButtonClicked(); });
+	InitButton(1, "Test1", [this]() {this->OnTest1ButtonClicked(); });
+	InitButton(2, "NewGame", [this]() {this->OnNewGameButtonClicked(); });
+	InitButton(3, "Hint", [this]() {this->OnUndoButtonClicked(); });
+}
 
-	auto test1Button = m_spriteFactory->CreateButton("Test1");
-	test1Button->setPosition({ c_buttonLeftEdge, c_buttonStackTop
-		+ 1 * c_buttonVerticalSpacingFactor * c_buttonHeight, 0 });
-	test1Button->setSize({ c_buttonWidth, c_buttonHeight });
-	test1Button->setOnClick([this]() { this->OnTest1ButtonClicked(); });
-	m_spriteRenderer->AddButton(test1Button);
 
-	auto newButton = m_spriteFactory->CreateButton("NewGame");
-	newButton->setPosition({ c_buttonLeftEdge, c_buttonStackTop
-		+ 2 * c_buttonVerticalSpacingFactor * c_buttonHeight, 0 });
-	newButton->setSize({ c_buttonWidth, c_buttonHeight });
-	newButton->setOnClick([this]() { this->OnNewGameButtonClicked(); });
-	m_spriteRenderer->AddButton(newButton);
+void AppCards::InitButton(int position, const std::string& name, const  std::function<void()>& callback)
+{
+	auto button = m_spriteFactory->CreateButton(name);
+	button->setPosition({ c_buttonLeftEdge, c_buttonStackTop
+		+ position * c_buttonVerticalSpacingFactor * c_buttonHeight, 0 });
+	button->setSize({ c_buttonWidth, c_buttonHeight });
+	button->setOnClick(callback);
+	m_spriteRenderer->AddButton(button);
 }
 
 
@@ -131,4 +127,10 @@ void AppCards::OnNewGameButtonClicked()
 {
 	std::cout << "New Game pressed" << std::endl;
 	m_spiderGame->Reshuffle();
+}
+
+void AppCards::OnHintButtonClicked()
+{
+	std::cout << "Hint Pressed" << std::endl;
+	m_spiderGame->Hint();
 }

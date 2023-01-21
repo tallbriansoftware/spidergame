@@ -43,7 +43,7 @@ void Deal10_UndoAnimation::Start(int delayMilliSeconds)
         cardList.push_back(&card);
         m_spiderAnimator.TurnCard(card, false, [this, slot]() { this->MoveCard(slot); }, delay);
     }
-    for (int i = cardList.size() - 1; i >= 0; --i)
+    for (int i = (int)cardList.size() - 1; i >= 0; --i)
         cardList[i]->BringToTop();
 }
 

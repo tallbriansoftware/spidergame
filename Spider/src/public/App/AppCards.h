@@ -5,6 +5,7 @@
 #include <array>
 #include <memory>
 #include <vector>
+#include <functional>
 
 class Animator;
 class Button;
@@ -44,6 +45,9 @@ private:
 	void OnUndoButtonClicked();
 	void OnTest1ButtonClicked();
 	void OnNewGameButtonClicked();
+	void OnHintButtonClicked();
+
+	void InitButton(int position, const std::string& name, const std::function<void()>& callback);
 
 private:
 	std::unique_ptr<GameResources> m_gameResources;

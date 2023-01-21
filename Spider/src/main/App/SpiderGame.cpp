@@ -208,6 +208,10 @@ void SpiderGame::Deal()
 		{ this->DealMoveDone(record_out); });
 }
 
+bool SpiderGame::Hint()
+{
+	return false;
+}
 
 bool SpiderGame::Undo()
 {

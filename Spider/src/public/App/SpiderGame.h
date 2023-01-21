@@ -29,6 +29,14 @@ public:
     CardStack& getStock();
     CardStack& getDonePacks();
 
+    // IGameMove
+    void DropDragStack(std::unique_ptr<CardStack> dragStack, Sprite* target, CardStack& returnStack) override;
+    void Deal() override;
+    bool Undo() override;
+
+    bool Hint();
+    void SetTestConfig(int num);
+
 private:
     void Init_Cards();
     void Init_Stacks();
@@ -37,12 +45,6 @@ private:
     std::vector<Card*> CollectAllCards();
     void DealGame(std::vector<Card*>& cards);
 
-public:  // IGameMove
-    void DropDragStack(std::unique_ptr<CardStack> dragStack, Sprite* target, CardStack& returnStack) override;
-    void Deal() override;
-    bool Undo() override;
-
-private:
     bool Undo_StackMove(const StackMoveRecord& rec);
     bool Undo_Deal(const DealMoveRecord& rec);
     void Undo_Done();
@@ -51,10 +53,6 @@ private:
 
     void SetStackTestConfig(std::vector<Card*>& allCards, const std::vector<CardModel>& source, CardStack& target);
 
-public:
-    void SetTestConfig(int num);
-
-private:
     SpriteFactory& m_spriteFactory;
     SpriteRenderer& m_spriteRenderer;
     SpiderAnimator& m_spiderAnimator;
