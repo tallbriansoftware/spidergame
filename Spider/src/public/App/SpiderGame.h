@@ -63,5 +63,4 @@ private:
     std::unique_ptr<CardStack> m_stock;
     std::unique_ptr<CardStack> m_donePacks;
     std::vector<std::unique_ptr<MoveRecord>> m_undoStack;
-
 };

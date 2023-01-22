@@ -46,6 +46,7 @@ AppCards::AppCards(const std::string& name, uint32_t width, uint32_t height)
 	m_backgroundColor = glm::vec3(0.1f, 0.5f, 0.0f);
 }
 
+
 AppCards::~AppCards()
 {
 }

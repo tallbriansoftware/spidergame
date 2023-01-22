@@ -37,12 +37,16 @@ void SpiderGame::Init(int numSuits, int seed)
 
 void SpiderGame::Reshuffle()
 {
+	if (m_busy)
+		return;
+
 	std::vector<Card*> allCards = CollectAllCards();
 
 	for (Card* card : allCards)
 		card->TurnFaceUp();
 
 	Dealing::Shuffle(allCards);
+	m_busy = true;
 	DealGame(allCards);
 }
 
@@ -154,7 +158,9 @@ void SpiderGame::DealGame(std::vector<Card*>& cards)
 {
 	m_undoStack.clear();
 	SetupStock(cards);
-	m_spiderAnimator.DealGame(*this, nullptr);
+
+	bool* busyFlag = &this->m_busy;
+	m_spiderAnimator.DealGame(*this, [busyFlag]() { *busyFlag = false; });
 }
 
 
@@ -332,6 +338,9 @@ void SpiderGame::SetStackTestConfig(std::vector<Card*>& allCards, const std::vec
 
 void SpiderGame::SetTestConfig(int num)
 {
+	if (m_busy)
+		return;
+
 	std::vector<Card*> allCards = CollectAllCards();
 
 	for (Card* card : allCards)
