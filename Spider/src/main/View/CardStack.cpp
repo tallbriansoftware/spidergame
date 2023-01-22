@@ -124,7 +124,7 @@ glm::vec2 CardStack::getPosition() const
 // get the position of the next card that will be added to the stack.
 glm::vec2 CardStack::getPositionOfNextCard() const
 {
-    return getPositionOfCard(getCountOfCards() + 1, true);
+    return getPositionOfCard(getCountOfCards(), true);
 }
 
 glm::vec2 CardStack::getPositionOfCard(int cardNo, bool faceUp) const
