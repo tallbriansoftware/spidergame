@@ -61,7 +61,6 @@ public:
     std::vector<Card*> RemoveFullPack();
     Card* GetMostDraggable();
 
-private:
     void ReevaluateMovability();
 
 private:
