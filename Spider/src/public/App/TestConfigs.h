@@ -22,4 +22,5 @@ namespace TestConfigs
     };
 
     extern Tableau One;
+    extern Tableau Two;
 }

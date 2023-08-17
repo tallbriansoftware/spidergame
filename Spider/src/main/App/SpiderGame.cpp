@@ -95,7 +95,7 @@ void SpiderGame::Init_Stacks()
 	const float donePile_x = leftBorder + (slotWidth * 10.2);
 	const float donePile_y = 400.0f;
 	const float stockPile_x = leftBorder + (slotWidth * 10.2);
-	const float stockPile_y = 900.0f;
+	const float stockPile_y = 1200.0f;
 
 	// Create the Slots and attach the stacks.
 	for (int slotNumber = 0; slotNumber < 10; ++slotNumber)
@@ -347,7 +347,7 @@ void SpiderGame::SetTestConfig(int num)
 		card->TurnFaceUp();
 
 	// Re-deploy the cards per the pattern given.
-	TestConfigs::Tableau* pattern = &TestConfigs::One;
+	TestConfigs::Tableau* pattern = &TestConfigs::Two;
 
 	SetStackTestConfig(allCards, pattern->m_stock, *m_stock);
 	SetStackTestConfig(allCards, pattern->m_packs, *m_donePacks);
