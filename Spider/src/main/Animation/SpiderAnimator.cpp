@@ -116,10 +116,10 @@ void SpiderAnimator::Deal10(SpiderGame& game,
 }
 
 
-void SpiderAnimator::Deal10_Undo(SpiderGame& game,
+void SpiderAnimator::Deal10_Undo(SpiderGame& game, const DealMoveRecord& record,
     Animation::CompletionCB completionCB, int delayMilliSeconds)
 {
-    Deal10_UndoAnimation* dealUndoAnimation = CreateDeal10_UndoAnimation(game);
+    Deal10_UndoAnimation* dealUndoAnimation = CreateDeal10_UndoAnimation(game, record);
     dealUndoAnimation->SetCompletionCallback(completionCB);
     dealUndoAnimation->Start(delayMilliSeconds);
 
@@ -206,9 +206,9 @@ Deal10Animation* SpiderAnimator::CreateDeal10Animation(SpiderGame& game)
     return dealAnimation;
 }
 
-Deal10_UndoAnimation* SpiderAnimator::CreateDeal10_UndoAnimation(SpiderGame& game)
+Deal10_UndoAnimation* SpiderAnimator::CreateDeal10_UndoAnimation(SpiderGame& game, const DealMoveRecord& record)
 {
-    auto deal10_UndoAnimation_ptr = std::make_unique<Deal10_UndoAnimation>(*this, game);
+    auto deal10_UndoAnimation_ptr = std::make_unique<Deal10_UndoAnimation>(*this, game, record);
     m_animations.push_back(std::move(deal10_UndoAnimation_ptr));
     Deal10_UndoAnimation* deal_UndoAnimation = dynamic_cast<Deal10_UndoAnimation*>(m_animations.back().get());
     return deal_UndoAnimation;

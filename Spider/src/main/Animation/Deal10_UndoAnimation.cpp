@@ -7,10 +7,14 @@
 #include "View/CardStack.h"
 
 
-Deal10_UndoAnimation::Deal10_UndoAnimation(SpiderAnimator& spiderAnimator, SpiderGame& game)
+Deal10_UndoAnimation::Deal10_UndoAnimation(SpiderAnimator& spiderAnimator, SpiderGame& game, const DealMoveRecord& record)
     : BaseAnimation(spiderAnimator)
     , m_game(game)
-    , m_doneCount(-1)
+    , m_record(record)
+    , m_delayMilliSeconds(0)
+    , m_doneTurnDownCount(0)
+    , m_doneRestoredPackCount(0)
+    , m_doneCount(0)
 {
     int count = m_game.getStock().getCountOfCards();
     for (int i = 0; i < 10; i++)
@@ -34,11 +38,64 @@ void Deal10_UndoAnimation::SetCompletionCallback(Animation::CompletionCB doneCB)
 
 void Deal10_UndoAnimation::Start(int delayMilliSeconds)
 {
+    m_delayMilliSeconds = delayMilliSeconds;
+    Step1_TurnCardsDown();
+}
+
+void Deal10_UndoAnimation::Step1_TurnCardsDown()
+{
+    for (int i = 0; i < (int)m_record.cardsTurned.size(); ++i)
+    {
+        if (m_record.cardsTurned[i])
+        {
+            m_spiderAnimator.TurnCard(m_game.getStack(i).TopCard(), false, [this]() {this->Done_TurningCardDown(); });
+            m_doneTurnDownCount += 1;
+        }
+    }
+    if (m_doneTurnDownCount == 0)
+        Step2_RestoreRemovedPacks();
+}
+
+void Deal10_UndoAnimation::Done_TurningCardDown()
+{
+    m_doneTurnDownCount -= 1;
+    if (m_doneRestoredPackCount > 0)
+        return;
+
+    Step2_RestoreRemovedPacks();
+}
+
+void Deal10_UndoAnimation::Step2_RestoreRemovedPacks()
+{
+    for (int i = 0; i < (int)m_record.packsRemoved.size(); ++i)
+    {
+        if (m_record.packsRemoved[i])
+        {
+            m_spiderAnimator.PackRestore(m_game, i, [this]() {this->Done_RestoreRemovedPack(); });
+            m_doneRestoredPackCount += 1;
+        }
+    }
+    if (m_doneRestoredPackCount == 0)
+        Step3_RemoveDeal();
+}
+
+void Deal10_UndoAnimation::Done_RestoreRemovedPack()
+{
+    m_doneRestoredPackCount -= 1;
+    if (m_doneRestoredPackCount > 0)
+        return;
+
+    Step3_RemoveDeal();
+}
+
+
+void Deal10_UndoAnimation::Step3_RemoveDeal()
+{
     m_doneCount = 10;
     std::vector<Card*> cardList;
     for (int slot = 0; slot < 10; ++slot)
     {
-        int delay = delayMilliSeconds + slot * 20;
+        int delay = m_delayMilliSeconds + slot * 20;
         Card& card = m_game.getStack(slot).TopCard();
         cardList.push_back(&card);
         m_spiderAnimator.TurnCard(card, false, [this, slot]() { this->MoveCard(slot); }, delay);

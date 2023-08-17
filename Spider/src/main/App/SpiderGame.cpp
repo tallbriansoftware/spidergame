@@ -266,7 +266,7 @@ bool SpiderGame::Undo_StackMove(const StackMoveRecord& rec)
 bool SpiderGame::Undo_Deal(const DealMoveRecord& rec)
 {
 	m_busy = true;
-	m_spiderAnimator.Deal10_Undo(*this, [this]() {this->Undo_Done(); });
+	m_spiderAnimator.Deal10_Undo(*this, rec, [this]() {this->Undo_Done(); });
 	return true;
 }
 

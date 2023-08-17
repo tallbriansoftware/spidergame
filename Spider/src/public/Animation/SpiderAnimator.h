@@ -50,7 +50,7 @@ public:
         Animation::CompletionCB completionCB = nullptr, int delayMilliSeconds = 0);
     void Deal10(SpiderGame& game,
         Deal10Animation::CompletionCB completionCB = nullptr, int delayMilliSeconds = 0);
-    void Deal10_Undo(SpiderGame& game,
+    void Deal10_Undo(SpiderGame& game, const DealMoveRecord& record,
         Animation::CompletionCB completionCB = nullptr, int delayMilliSeconds = 0);
     void DealGame(SpiderGame& game,
         Animation::CompletionCB completionCB = nullptr, int delayMilliSeconds = 0);
@@ -67,7 +67,7 @@ private:
     PackRemoveAnimation* CreatePackRemoveAnimation(SpiderGame& game, CardStack& packStack);
     PackRestoreAnimation* CreatePackRestoreAnimation(SpiderGame& game, int destStack);
     Deal10Animation* CreateDeal10Animation(SpiderGame& game);
-    Deal10_UndoAnimation* CreateDeal10_UndoAnimation(SpiderGame& game);
+    Deal10_UndoAnimation* CreateDeal10_UndoAnimation(SpiderGame& game, const DealMoveRecord& record);
     DealGameAnimation* CreateDealGameAnimation(SpiderGame& game);
 
 private:
