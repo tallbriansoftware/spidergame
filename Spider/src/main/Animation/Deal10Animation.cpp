@@ -87,7 +87,6 @@ void Deal10Animation::DoneMoveCard(int slot)
 void Deal10Animation::DoneTurnSrcCard(int slot)
 {
     CardStack& stack = m_game.getStack(slot);
-    stack.ReevaluateMovability();
 
     // pause a bit before removing the full stacks.
     int delay = 500;

@@ -11,9 +11,6 @@ class Card;
 class TurnCardAnimation : public BaseAnimation
 {
 public:
-    using DoneCB = std::function<void(TurnCardAnimation& turnAnimation)>;
-
-public:
     TurnCardAnimation(SpiderAnimator& spiderAnimator, Card& card, bool turnUp);
     ~TurnCardAnimation();
 

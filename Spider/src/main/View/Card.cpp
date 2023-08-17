@@ -63,6 +63,9 @@ void Card::TurnFaceUp()
     SetTexture(m_front);
     setMovable();
     m_cardModel.TurnFaceUp();
+
+    if (m_parent != nullptr)
+        m_parent->ReevaluateMovability();
 }
 
 void Card::TurnFaceDown()
@@ -70,6 +73,9 @@ void Card::TurnFaceDown()
     SetTexture(m_back);
     setMovable(false);
     m_cardModel.TurnFaceDown();
+
+    if(m_parent != nullptr)
+        m_parent->ReevaluateMovability();
 }
 
 void Card::setMovable(bool value)
