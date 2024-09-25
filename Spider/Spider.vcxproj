@@ -150,6 +150,9 @@
       <EntryPointSymbol>
       </EntryPointSymbol>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy  /s  /q /r /y  $(ProjectDir)res   $(TargetDir)\res\</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OSS\glm\detail\glm.cpp" />
