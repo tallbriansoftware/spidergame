@@ -279,13 +279,12 @@ void SpiderGame::Undo_Done()
 
 void SpiderGame::StackMoveDone(const StackMoveRecord& rec)
 {
-	std::cout << "Stack Move stored on Undo Stack" << std::endl;
-
 	// Don't add null moves to the undo stack.
 	if (rec.srcStack != rec.destStack)
 	{
 		auto rec_ptr = std::make_unique<StackMoveRecord>(rec);
 		m_undoStack.push_back(std::move(rec_ptr));
+		std::cout << "Stack Move stored on Undo Stack" << std::endl;
 	}
 	m_busy = false;
 }

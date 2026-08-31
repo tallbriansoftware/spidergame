@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32802.440
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spider", "Spider\Spider.vcxproj", "{776446FD-5D50-4FF1-B9FA-421FC7BB701E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpiderLib", "SpiderLib\SpiderLib.vcxproj", "{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test-Solitare", "Test-Solitare\Test-Solitare.vcxproj", "{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test-Solitare", "Test-Solitare\Test-Solitare.vcxproj", "{13F93476-F6DF-45A7-ABAE-52A586AFB304}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +33,14 @@ Global
 		{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}.Release|x64.Build.0 = Release|x64
 		{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}.Release|x86.ActiveCfg = Release|Win32
 		{1EE526E7-C796-48FE-8A1B-C24E5309FDEC}.Release|x86.Build.0 = Release|Win32
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x64.ActiveCfg = Debug|x64
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x64.Build.0 = Debug|x64
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x86.ActiveCfg = Debug|Win32
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Debug|x86.Build.0 = Debug|Win32
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x64.ActiveCfg = Release|x64
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x64.Build.0 = Release|x64
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x86.ActiveCfg = Release|Win32
-		{EA90D962-94C5-44BE-ABB0-2DBAFFDED6F2}.Release|x86.Build.0 = Release|Win32
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Debug|x64.ActiveCfg = Debug|x64
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Debug|x64.Build.0 = Debug|x64
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Debug|x86.ActiveCfg = Debug|Win32
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Debug|x86.Build.0 = Debug|Win32
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Release|x64.ActiveCfg = Release|x64
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Release|x64.Build.0 = Release|x64
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Release|x86.ActiveCfg = Release|Win32
+		{13F93476-F6DF-45A7-ABAE-52A586AFB304}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
